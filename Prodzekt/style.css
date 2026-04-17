@@ -1,0 +1,167 @@
+nav{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar-left{
+    margin: 0px 1.5rem;
+}
+.navbar-left img{
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 5px white;
+}
+.navbar-left img:hover{
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 1.0);
+}
+.navbar .navbar-middle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.2rem;
+}
+.navbar-middle a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: 0 0 5px white;
+}
+.navbar-middle a:hover{
+    color: rgba(255, 255, 255, 1.0);
+    text-decoration: underline;
+}
+.navbar .navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navbar-right i{
+    color: rgba(255, 255, 255, 0.7);
+}
+.navbar-right i:hover{
+    color: white;
+}
+.fa-discord{
+    border: 2px solid white;
+    padding: 0.5rem;
+    background: rgb(68, 68, 68);
+    border-radius: 1.5rem;
+    box-shadow: 0 0 5px white;
+}
+.fa-language{
+    text-shadow: 0 0 5px white;
+}
+.navbar-right button{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background: rgb(68, 68, 68);   
+    color: rgba(255, 255, 255, 0.7);
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+}
+.navbar-right button:hover{ 
+    color: white;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.login-container{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 25rem;
+    height: 28rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
+}
+.login-container .wrapper{
+    margin: 1.5rem;
+}
+.icon i{
+    color: white;
+    font-size: 1.5rem;
+}
+.wrapper h2{
+    color: white;
+    margin-bottom: 0.2rem;
+    text-shadow: 0 0 5px white;
+}
+.wrapper p{
+    margin-top: 0.2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.input-wrap p{
+    margin: 0 0 0.4rem;
+}
+.input-box p{
+    display: flex;
+    gap: 0.3rem;
+}
+.input-box input{
+    margin: 0 0 1rem;
+    width: 94%;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    background: rgba(136, 136, 136, 0.4);
+}
+.input-box input::placeholder{
+    color: rgba(234, 234, 234, 0.4);
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.remember-forgot label{
+    color: rgba(255, 255, 255, 0.5);
+}
+.remember-forgot a:hover{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+.log-in-btn{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.log-in-btn button{
+    width: 22rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+}
+.reg p{
+    color: white;
+}
+.reg a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5px white;
+}
+.reg a:hover{
+    text-decoration: underline;
+}
